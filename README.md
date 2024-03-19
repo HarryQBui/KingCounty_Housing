@@ -32,4 +32,5 @@ Specifically these columns: waterfront, view, condition
 ![image](https://github.com/HarryQBui/KingCounty_Housing/assets/95842183/afa9f30c-cc3f-4327-b825-9cdb834c743a)
 
 ## Load Data into Tableau
+![image](https://github.com/HarryQBui/KingCounty_Housing/assets/95842183/0cd7b353-1b69-4e45-a5b9-e2f7ab773b2c)
 
