@@ -1,7 +1,14 @@
 # KingCounty_Housing
 
-## Data cleaning
-Convert the CSV file to Excel
+## 🎯 Project goal
+Create a dashboard for house sales transactions for buyers/investors. Visualise key information like transaction price and include the relationship between view and condition. 
+
+## 🛠️ Tools
+- Microsoft Excel for data cleaning
+- Tableau for data visualisation - View [dashboard](https://public.tableau.com/app/profile/harry.bui/viz/KingCountryHouseSales2014-2015/KingCountyHouseSales?publish=yes)
+
+## 🪥 Data cleaning
+- Convert the CSV file to Excel
 
 A preview of the data:
 ![image](https://github.com/HarryQBui/KingCounty_Housing/assets/95842183/de799415-119f-4a6d-8286-944a70be44f4)
@@ -31,6 +38,9 @@ Convert the characteristic columns from number to categorical string
 Specifically these columns: waterfront, view, condition
 ![image](https://github.com/HarryQBui/KingCounty_Housing/assets/95842183/afa9f30c-cc3f-4327-b825-9cdb834c743a)
 
-## Load Data into Tableau
+## 📊 Load Data into Tableau
 ![image](https://github.com/HarryQBui/KingCounty_Housing/assets/95842183/0cd7b353-1b69-4e45-a5b9-e2f7ab773b2c)
+
+## 🖼️ Dashboard
+![image](https://github.com/HarryQBui/KingCounty_Housing/assets/95842183/b7041dc5-da63-4424-acbd-4b2aaf76d711)
 
