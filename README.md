@@ -6,6 +6,7 @@ Create a dashboard for house sales transactions for buyers/investors. Visualise 
 ## 🛠️ Tools
 - Microsoft Excel for data cleaning
 - Tableau for data visualisation - View [dashboard](https://public.tableau.com/app/profile/harry.bui/viz/KingCountryHouseSales2014-2015/KingCountyHouseSales?publish=yes)
+- Dataset: [Kaggle's House Sales in King County, USA dataset](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction/data)
 
 ## 🪥 Data cleaning
 ### Convert the CSV file to Excel
