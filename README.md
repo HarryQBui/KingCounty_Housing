@@ -19,24 +19,23 @@ Create a dashboard for house sales transactions for buyers/investors. Visualise 
 ### Check for duplicates
 - Row count = 21613
 - Unique id = 21436
-Are there duplicates that we need to remove?
-Upon further inspection, there are 176 ids that seems to be duplicated in 353 transactions, but these are houses that were transacted 2 or 3 times within the period. 
-Conclusion: no duplicates that need to be removed.
+- Are there duplicates that we need to remove? Upon further inspection, there are 176 ids that seem to be duplicated in 353 transactions, but these are houses that were transacted 2 or 3 times within the period. 
+- Conclusion: no duplicates that need to be removed.
 
 ### Remove 0 bedroom or 0 bathroom houses
-- It seems inaccurate that a house has 0 bedroom or 0 bathroom so these records were removed.
+- It seems inaccurate that a house has 0 bedrooms or 0 bathrooms so these records were removed.
 ![image](https://github.com/HarryQBui/KingCounty_Housing/assets/95842183/13c96c6d-b5d2-40e2-91e9-3dc76d033928)
 
-- Similarly, houses with 0 bathroom are probably uninhabitable so these records were removed.
+- Similarly, houses with 0 bathrooms are probably uninhabitable so these records were removed.
 ![image](https://github.com/HarryQBui/KingCounty_Housing/assets/95842183/4a9f1df9-2ecb-44dd-a18e-4b0541557dfd)
-There are properties with 0 bedroom but come with bathrooms, they can be self contained studios so those records were not removed.
+There are properties with 0 bedrooms that come with bathrooms, they can be self-contained studios so those records were not removed.
 
 ### Convert sqft to sqm
-1 square foot = 0.09290304 square metre
+- 1 square foot = 0.09290304 square metre
 ![image](https://github.com/HarryQBui/KingCounty_Housing/assets/95842183/5360a5c6-9197-4c25-b346-d173f672a322)
 
-### Convert the characteristic columns from number to categorical string
-Specifically these columns: waterfront, view, condition
+### Convert the characteristic columns from numbers to categorical string
+- Specifically these columns: waterfront, view, condition
 ![image](https://github.com/HarryQBui/KingCounty_Housing/assets/95842183/afa9f30c-cc3f-4327-b825-9cdb834c743a)
 
 ## 📊 Load Data into Tableau
